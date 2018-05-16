@@ -7,7 +7,7 @@
     <groupId>com.epam.jdi</groupId>
     <artifactId>heisenbug-example</artifactId>
     <version>1.0</version>
-    <name>JDI Test project Template</name>
+    <name>Heisenbug Test project</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
