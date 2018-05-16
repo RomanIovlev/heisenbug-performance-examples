@@ -5,6 +5,9 @@ import org.mytests.uiobjects.example.entities.User;
 import org.mytests.uiobjects.example.site.pages.HomePage;
 import org.mytests.uiobjects.example.site.pages.PerformancePage;
 import org.mytests.uiobjects.example.site.sections.LoginForm;
+import org.mytests.uiobjects.example.site.tasks.DropdownTask;
+import org.mytests.uiobjects.example.site.tasks.TableTask;
+import org.mytests.uiobjects.example.site.tasks.TextfieldTask;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import ru.yandex.qatools.allure.annotations.Step;
@@ -15,6 +18,12 @@ import java.util.List;
 public class JDIExampleSite {
     public static HomePage homePage;
     public static PerformancePage performancePage;
+
+    public static DropdownTask dropdownTask;
+    public static TableTask tableTask;
+    public static TextfieldTask textfieldTask;
+
+
     @FindBy(css = "form") public static LoginForm loginForm;
 
     @FindBy(css = ".profile-photo") public static WebElement profilePhoto;
